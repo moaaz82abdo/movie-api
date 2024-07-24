@@ -1,0 +1,32 @@
+.home{
+    background-image: url('/assets/mosquebg.avif');
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;justify-content: center;
+    position: relative;
+  }
+  
+  .home h1{
+    font-size: 100px;
+  }
+
+  .home .btn{
+    font-size: 40px;
+    bottom: 30px;
+    position: absolute;
+    border-radius: 50px;
+  }
+
+  .community{
+    margin: auto;
+    display: flex;
+    width: 100px;height: 100px;
+    justify-content: center;align-items: center;
+    background-color: red;
+    border-radius: 50%;
+  }
+  
+  

@@ -1,0 +1,12 @@
+.hero{
+    height: 75vh;
+    background-image: url(/assets/mosquebg.avif);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;align-items: center;
+}
+
+.hero h1{
+    font-size: 100px;
+}

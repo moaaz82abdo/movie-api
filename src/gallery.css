@@ -1,0 +1,11 @@
+.image{
+    height: 50vh;
+    display: flex;
+    align-items: center;justify-content: center;
+    background-image: url(/assets/mo.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.image h1{
+    font-size: 100px;
+}

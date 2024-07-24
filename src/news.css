@@ -1,0 +1,15 @@
+.news{
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(/assets/news.avif);
+    background-size: cover;
+    background-position: center;
+}
+
+.news h1{
+    font-size: 100px;
+    font-weight: 800;
+    color: aliceblue;
+}
