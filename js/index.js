@@ -1,10 +1,10 @@
-const api_key = "90433053f2385c755ec2556a85a0ad29";
-const access_token = "eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiI5MDQzMzA1M2YyMzg1Yzc1NWVjMjU1NmE4NWEwYWQyOSIsInN1YiI6IjY2MDQ4NmUxZDdjZDA2MDE2NDg3YjhjYyIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.OQkHylGyHF4h1hKeTmfQ-B9VDnlOBesJlfggapESSMQ";
+const api_key = "put your own";
+const access_token = "get your own";
 const options = {
     method: 'GET',
     headers: {
       accept: 'application/json',
-      Authorization: 'Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiI5MDQzMzA1M2YyMzg1Yzc1NWVjMjU1NmE4NWEwYWQyOSIsInN1YiI6IjY2MDQ4NmUxZDdjZDA2MDE2NDg3YjhjYyIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.OQkHylGyHF4h1hKeTmfQ-B9VDnlOBesJlfggapESSMQ'
+      Authorization: 'Bearer get your own'
     }
   };
 const base_url = "https://api.themoviedb.org/3"
@@ -12,7 +12,7 @@ const base_img = "https://image.tmdb.org/t/p/w500"
 // https://api.themoviedb.org/3/discover/movie
 
 async function get_movies(){
-    const res = await fetch("https://api.themoviedb.org/3/discover/movie?api_key=90433053f2385c755ec2556a85a0ad29")
+    const res = await fetch("https://api.themoviedb.org/3/discover/movie?api_key=get your own")
     const movies1 = await res.json()
     getmovieDetails(movies1.results);
     print_movies(movies1.results)
