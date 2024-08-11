@@ -25,7 +25,7 @@ export default function Event_list() {
 
 <div ><ul><li>There were no results found.</li></ul></div>
 
-  <div id="tribe-events-header" data-title="Upcoming Events" data-startofweek="1" data-view="list" data-baseurl="http://www.engage.veented.com/church/events/list/">
+  <div id="tribe-events-header" data-title="Upcoming Events" data-startofweek="1" data-view="list" data-baseurl="">
 
       
   
@@ -34,7 +34,7 @@ export default function Event_list() {
   <div id="tribe-events-footer">
 
     <li aria-label="previous events link">
-    <a href="http://www.engage.veented.com/church/events/list/?tribe_event_display=past&amp;tribe_paged=1" rel="prev"><span>«</span> Previous Events</a>
+    <a href="" rel="prev"><span>«</span> Previous Events</a>
 
   </li>
   
